@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_TARGET_VNDK_VERSION := 29
 
+# ANT+
+PRODUCT_PACKAGES += \
+    AntHalService
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
