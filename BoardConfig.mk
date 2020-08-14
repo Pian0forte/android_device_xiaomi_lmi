@@ -7,6 +7,7 @@
 DEVICE_PATH := device/xiaomi/lmi
 
 # A/B
+PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Assert
