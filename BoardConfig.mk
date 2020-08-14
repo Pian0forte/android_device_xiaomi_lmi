@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/xiaomi/lmi
 
+# A/B
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lmi
 
