@@ -95,6 +95,7 @@ TARGET_USES_MKE2FS := true
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
 
 # Treble
+BOARD_VNDK_VERSION := current
 PRODUCT_TARGET_VNDK_VERSION := 29
 
 # Verified Boot
